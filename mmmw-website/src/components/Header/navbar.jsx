@@ -28,9 +28,9 @@ export default function Navbar() {
   };
 
   return (
-    <header className='flex flex-col w-full z-50'>
+    <header className='flex flex-col w-full z-50 relative'>
       <nav id="navbar" className='flex flex-row w-full bg-pink h-[5rem]'>
-        <div id='mobile-nav' className='flex md2:hidden w-full'>
+        <div id='mobile-nav' className='flex md2:hidden w-full '>
           <div className='flex w-full px-4 items-center justify-between'>
             <div id="nav-branding" className='flex items-center'>
               <div id="nav-logo" className='mr-3'></div>
@@ -47,8 +47,8 @@ export default function Navbar() {
           </div>
 
           {isMobileMenuOpen && (
-            <div className='fixed inset-0 bg-pink z-50 overflow-y-auto'>
-              <div className='flex flex-col h-full'>
+            <div className='fixed inset-0 bg-pink z-50 overflow-y-auto '>
+              <div className='flex flex-col absolute left-0 right-0 top-0 bottom-0 z-[100000]'>
                 <div className='flex justify-between items-center p-4 border-b'>
                   <div id="nav-branding" className='flex items-center'>
                     <div id="nav-logo" className='mr-3'></div>
@@ -61,7 +61,7 @@ export default function Navbar() {
                   </button>
                 </div>
 
-                <ul id="nav-menu" className='flex flex-col p-4 space-y-4'>
+                <ul id="nav-menu" className='flex flex-col p-4 space-y-4 '>
                   <li id="nav-item"> 
                     <a href="/about-us" className='block py-2 text-darkpurple font-bold'>About Us</a>
                   </li>
@@ -99,7 +99,7 @@ export default function Navbar() {
                     )}
                   </li>
 
-                  <li id="nav-item" className='flex flex-col'> 
+                  <li id="nav-item" className='flex flex-col '> 
                     <div 
                       className='flex justify-between items-center py-2'
                       onClick={toggleForSinglesDropdown}
@@ -132,9 +132,9 @@ export default function Navbar() {
                   
 
                   <li id="nav-button" className='mt-4'> 
-                    <button className='w-full bg-purple text-white rounded-xl p-3'>
+                    <a href='https://calendly.com/kemie72' target='_blank' className='w-full bg-purple text-white rounded-xl p-3 font-semibold '>
                       Inquire Now
-                    </button>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -209,7 +209,7 @@ export default function Navbar() {
             
 
             <li id="nav-button" className='flex'> 
-              <button href="#" className='bg-purple text-white rounded-xl md:ml-3 lg:ml-5 p-3 m-auto shadow-xl hover:shadow-2xl '>Inquire Now </button>
+              <a href="https://calendly.com/kemie72" target='_blank' className='bg-purple text-white rounded-xl md:ml-3 lg:ml-5 p-3 m-auto shadow-xl hover:shadow-2xl font-semibold'>Inquire Now </a>
             </li>
           </ul>
         </div>

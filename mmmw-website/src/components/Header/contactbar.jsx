@@ -17,12 +17,15 @@ export default function Contactbar() {
               </div>
 
             </div>
-            <div id="contacts" className='ml-auto pr-10'>
-              <div id="social-icons">
-
+            <div id="contacts" className='ml-auto pr-10 flex flex-row'>
+              <div id="social-icons" className='flex gap-x-2 mx-2 ' >
+                <a href="http://wa.me/447848796085 " target='_blank'><i className=' text-2xl text-contactdarkblue' class="fa-brands fa-square-whatsapp text-2xl text-contactdarkblue"></i></a>
+                
+                
               </div>
-              <div id="phone" className='text-contactmidblue'>
-                | Call us at +44 784-879-6085
+
+              <div id="phone" className='  text-contactmidblue'>
+               <div> | Call us at +44 784-879-6085 </div>
               </div>
             </div>
           </div>

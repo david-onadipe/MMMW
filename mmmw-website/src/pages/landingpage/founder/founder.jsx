@@ -8,7 +8,7 @@ export default function Founder() {
           <div className='text-center md:text-left text-3xl md:mt-2 lg:mt-0 md:text-[2.2rem] md:leading-[40px] lg:text-[2.5em] lg:leading-[49px] xl:text-[3.3rem] xl:leading-[1.1] text mb-8 '> Building Trust <br/> Nurturing Hope </div>
           <div className='mb-11 text-center md:text-left text-lg'> James Lindsey strives to customize therapy to meet his clients' individual needs. His education and experience with a wide variety of therapeutic techniques allows him to adapt counselling to meet his clients wherever they are at on the road to healing.</div>
           <div className='flex flex-col gap-7'>
-            <div id='signature' className="text-center md:text-left"> [SIGNATURE SVG PLACEHOLER] </div>
+            <div id='signature' className="justify-center flex md:justify-start"> <img className='w-[200px]' src='public\img\Signature.png'></img>  </div>
             <div className='text-center md:text-left'> Dr. Kemi Elizabeth Onadipe</div>
           </div>
           

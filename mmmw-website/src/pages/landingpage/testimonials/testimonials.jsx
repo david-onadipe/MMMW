@@ -67,7 +67,7 @@ export default function data() {
             We've Impacted People Just Like You.
           </div>
           <div className=' text-pink text-center md:text-lg'>
-            Sem malesuada sed lectus id nunc mattis est eget tincidunt.
+          Hear Their Stories and See Real Results.
           </div>
         </div>
         <Slider className='flex flex-col items-center mx-10 ' {...settings}>

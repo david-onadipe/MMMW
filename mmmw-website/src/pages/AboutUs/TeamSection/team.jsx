@@ -1,4 +1,5 @@
 import TeamCards from "./teamcards";
+import PurpleDown from "../../../components/Spacers/purple-spacer-down";
 
 export default function TeamSection() {
 
@@ -25,7 +26,7 @@ export default function TeamSection() {
       Description: '  a very cool pers a very cool person a very cool person a very cool person a very cool person a very cool person a very cool person a very cool person a very cool personn a very cool person v',
     },
     {Name: 'Bankole Dada',
-      Role: 'Lead Match-maker',
+      Role: 'Tech Lead',
       Image: '../../../../public/img/bankoleDada.jpg',
       Linkedin: '',
       Facebook: '',
@@ -55,7 +56,7 @@ export default function TeamSection() {
   return(
     <div className='w-full flex flex-col'>
       <div className='max-w-[1500px] px-5 py-11 '>
-        <h1 className='text-white text-6xl text-center py-10 font-bold '> Our Team</h1>
+        <h1 className='text-white text-4xl md:text-6xl text-center py-10 font-bold team '> Our Team</h1>
         <div className='grid grid-cols-2 lg:grid-cols-3 gap-3 xs2:gap-10 lg:gap-16 '>
           {teamArray}
           <a href=""></a>
