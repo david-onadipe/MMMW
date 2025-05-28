@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/eqhfend3s78k/public_html/
-    - /bin/cp -R dist/* $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp -R .next/* $DEPLOYPATH
+    - /bin/cp -R public/* $DEPLOYPATH/public

@@ -1,7 +1,7 @@
 
 export default function Contactbar() {
-  const clockIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgb(64,100,158)" class="size-6">
-  <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd" />
+  const clockIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgb(64,100,158)" className="size-6">
+  <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clipRule="evenodd" />
 </svg>
 
 
@@ -19,7 +19,7 @@ export default function Contactbar() {
             </div>
             <div id="contacts" className='ml-auto pr-10 flex flex-row'>
               <div id="social-icons" className='flex gap-x-2 mx-2 ' >
-                <a href="http://wa.me/447848796085 " target='_blank'><i className=' text-2xl text-contactdarkblue' class="fa-brands fa-square-whatsapp text-2xl text-contactdarkblue"></i></a>
+                <a href="http://wa.me/447848796085 " target='_blank'><i className=' text-2xl text-contactdarkblue' className="fa-brands fa-square-whatsapp text-2xl text-contactdarkblue"></i></a>
                 
                 
               </div>

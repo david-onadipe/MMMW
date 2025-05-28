@@ -1,7 +1,7 @@
 
 import Hero from './hero/hero.jsx'
 import Counselling from './counselling/counselling.jsx'
-import Events from './events/events.jsx'
+import Events from './events/page.jsx'
 import Founder from './founder/founder.jsx'
 import Testimonials from './testimonials/testimonials.jsx'
 import PinkDown from '../../components/Spacers/pink-spacer-down.jsx'
@@ -17,8 +17,8 @@ export default function Landingpage() {
       <Events/>
       <WhiteDown/>
       <Founder/>
-      <Testimonials />
-      <PurpleDown/>
+      {/* <Testimonials /> */}
+      
     </div>
   );
 }

@@ -1,11 +1,20 @@
+import Image from 'next/image';
+import weekendImage from '../../../../public/img/Conservatorium-Hotel-Romance-Suite-4.jpg';
+
 export default function WeekendAway() {
   return(
-    <div className='w-full px-10 mx-auto '>     
-        <div className='flex flex-col w-full '>
-            <h1 className=' text-white mt-10 mb-10 text-4xl md:text-6xl  text-center'> Extraordinary Love Weekend Away</h1>
-            <div className='flex flex-col md:flex-row w-full gap-5 md:gap-10 '>
-              <div className='w-full flex items-center '>
-                <img className=' flex w-full object-cover bg-white rounded-xl min-h-[200px] xs:min-h-[300px] sm:max-w-[500px]  mx-auto  shadow-2xl' src='../../../../public/img/Conservatorium-Hotel-Romance-Suite-4.jpg' alt=''/>
+    <div className='w-full px-10 mx-auto'>     
+        <div className='flex flex-col w-full'>
+            <h1 className='text-white mt-10 mb-10 text-4xl md:text-6xl text-center'>Extraordinary Love Weekend Away</h1>
+            <div className='flex flex-col md:flex-row w-full gap-5 md:gap-10'>
+              <div className='relative w-full min-h-[200px] xs:min-h-[300px] sm:max-w-[500px] mx-auto'>
+                <Image
+                  className='rounded-xl shadow-2xl'
+                  src={weekendImage}
+                  alt="Weekend Away"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
 
               <div className='flex flex-col w-full text-white text-center md:text-left gap-5'>

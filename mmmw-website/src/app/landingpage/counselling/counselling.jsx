@@ -1,4 +1,9 @@
 import WhiteUp from "../../../components/Spacers/white-spacer-up";
+import TakingNotes from '../../../../public/img/takingnotes.jpg'
+import happycouple from '../../../../public/img/happycouple.jpg'
+import happysingleman from '../../../../public/img/happysingleman.jpg'
+import happyfamily from '../../../../public/img/happyfamily.jpg'
+
 
 
 export default function Counselling() {
@@ -23,25 +28,25 @@ export default function Counselling() {
           <a href=' https://calendly.com/kemie72/couples-counselling' target='_blank' className='relative hover:drop-shadow-2xl rounded-xl bg-purple h-[120px] w-[120px] xs:h-[130px] xs:w-[130px] sm:h-[150px] sm:w-[150px] md:h-60 md:w-60 lg:h-[200px] lg:w-[200px] xl:h-60 xl:w-60 '>
           <div id='counsel-card-gradient' className='h-20 rounded-xl absolute bottom-0 left-0 right-0 w-full text-center'> <p className='absolute bottom-5 left-0 right-0 w-full font-bold text-white text-base md:text-xl px-2 '>Couples Counseling</p>
           </div>
-          <img src="./public/img/happycouple.jpg" alt="" className='rounded-xl' />
+          <img src={happycouple.src} alt="" className='rounded-xl' />
           </a>
           
           <a href=' https://calendly.com/kemie72/singles-counselling' target='_blank' className='relative hover:drop-shadow-2xl rounded-xl bg-purple h-[120px] w-[120px] xs:h-[130px] xs:w-[130px] sm:h-[150px] sm:w-[150px] md:h-60 md:w-60 lg:h-[200px] lg:w-[200px] xl:h-60 xl:w-60 '>
           <div id='counsel-card-gradient' className='h-20 rounded-xl absolute bottom-0 left-0 right-0 w-full text-center'> <p className='absolute bottom-5 left-0 right-0 w-full font-bold text-white text-base md:text-xl px-2 '>Singles Counseling</p>
           </div>
-          <img src="./public/img/happysingleman.jpg" alt="" className='rounded-xl' />
+          <img src={happysingleman.src} alt="" className='rounded-xl' />
           </a>
 
           <a href=' https://calendly.com/kemie72/family-counselling' target='_blank' className='relative hover:drop-shadow-2xl rounded-xl bg-purple h-[120px] w-[120px] xs:h-[130px] xs:w-[130px] sm:h-[150px] sm:w-[150px] md:h-60 md:w-60 lg:h-[200px] lg:w-[200px] xl:h-60 xl:w-60 '>
           <div id='counsel-card-gradient' className='h-20 rounded-xl absolute bottom-0 left-0 right-0 w-full text-center'> <p className='absolute bottom-5 left-0 right-0 w-full font-bold text-white text-base md:text-xl px-2 '>Family Counseling</p>
           </div>
-          <img src="./public/img/happyfamily.jpg" alt="" className='rounded-xl' />
+          <img src={happyfamily.src} alt="" className='rounded-xl' />
           </a>
 
           <a href=' https://calendly.com/kemie72/general-counselling' target='_blank' className='relative hover:drop-shadow-2xl rounded-xl bg-purple h-[120px] w-[120px] xs:h-[130px] xs:w-[130px] sm:h-[150px] sm:w-[150px] md:h-60 md:w-60 lg:h-[200px] lg:w-[200px] xl:h-60 xl:w-60 '>
           <div id='counsel-card-gradient' className='h-20 rounded-xl absolute bottom-0 left-0 right-0 w-full text-center'> <p className='absolute bottom-5 left-0 right-0 w-full font-bold text-white text-base md:text-xl px-2 '>General Counseling</p>
           </div>
-          <img src="./public/img/takingnotes.jpg" alt="" className='rounded-xl' />
+          <img src={TakingNotes.src} alt="" className='rounded-xl' />
           </a>
           
         </div>

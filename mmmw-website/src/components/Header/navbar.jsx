@@ -1,6 +1,11 @@
-import {Link} from 'react-router-dom'
+"use client";
+
+
 import React, { useState } from 'react';
-import Eventspage from '../../pages/EventsPage/events-page';
+import Eventspage from '../../app/events/page';
+import Link from 'next/link'; // Use Next.js routing
+
+
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
